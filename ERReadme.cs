@@ -57,8 +57,6 @@ public class ReadmeAssetEditor : Editor
             if (EditorGUI.EndChangeCheck())
             {
                 EditorUtility.SetDirty(readme);
-                AssetDatabase.SaveAssets();
-                AssetDatabase.Refresh();
             }
         }
         else
